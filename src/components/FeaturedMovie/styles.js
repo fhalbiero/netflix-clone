@@ -64,7 +64,7 @@ export const Container = styled.div`
         margin-top: 16px;
         font-size: 18px;
         max-width: 35%;
-        color: #c0c0c0;
+        color: #dfdfdf;
     }
 
     .featured--buttons{
