@@ -21,7 +21,7 @@ const FeaturedMovie = ({item}) => {
 
     return (
         <Container 
-            backgroundImage={`https://image.tmdb.org/t/p/original${item.backdrop_path}`} 
+            //backgroundImage={`https://image.tmdb.org/t/p/original${item.backdrop_path}`} 
         >    
             <content>
                 <div className='featured--horizontal'>

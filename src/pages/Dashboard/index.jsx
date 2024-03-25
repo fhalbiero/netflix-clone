@@ -7,7 +7,7 @@ import Header from '../../components/Header';
 
 import { Container } from './styles';
 
-const Dashboard = () => {
+export function Dashboard() {
 
   const [movieList, setMovieList] = useState([]);
   const [featuredData, setFeaturedData] = useState(null)
@@ -55,7 +55,7 @@ const Dashboard = () => {
 
       {!movieList.length && 
         <div className="loading">
-          <img src="https://cdn.lowgif.com/full/ce629026a12a85a7-the-tech-behind-netflix-s-worldwide-expansion-is-a-big-deal-for-the.gif"></img>
+         {/* <img src="https://cdn.lowgif.com/full/ce629026a12a85a7-the-tech-behind-netflix-s-worldwide-expansion-is-a-big-deal-for-the.gif"></img> */}
         </div>  
       }
 
@@ -84,5 +84,3 @@ const Dashboard = () => {
   );
 
 }
-
-export default Dashboard;
